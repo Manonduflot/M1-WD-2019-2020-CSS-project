@@ -1,3 +1,81 @@
 body{
-  background: pink;
+  background:#D8BDFF;
+  cursor:url(souris1.cur), auto;
+
+}
+
+.etoile{
+  width: 10%;
+}
+
+li{
+list-style-type: none;
+line-height: 200%;
+}
+
+h1{
+  font-family: bely-display, sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  font-style: normal;
+  color:black;
+}
+
+a{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+
+a:link {
+  color: #D8FF36;
+}
+
+a:visited {
+  color: #D8FF36;
+}
+
+a:focus {
+
+
+}
+
+a:hover {
+  border-bottom: 1px solid #D8FF36;
+  color: #5700FF;
+
+}
+
+a:active {
+  color: #600DFF;
+}
+
+p{
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section{
+  border-bottom: 2px solid #B95FFF ;
+  min-height: 65vh;
+}
+
+#main-menu{
+  background: #9C57FF;
+  height: 100%;
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left:-320px;
+}
+
+
+
+#main-menu:target{
+  left: 0;
 }
