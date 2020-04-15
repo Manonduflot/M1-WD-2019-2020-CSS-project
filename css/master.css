@@ -81,11 +81,22 @@ section{
 }
 
 @media screen and (min-width: 681px) and (max-width:3000px){
-  body{
-    background: rgba(250, 255, 177, 0.8);
-  }
-}
+  #main-menu:{
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;}
 
+    ul {
+    background-color: #9C57FF;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+}
 
 #main-menu:target{
   left: 0;
