@@ -1,0 +1,12 @@
+/* Webfont: OpticianSans-Regular */@font-face {
+    font-family: 'OpticianSans';
+    src: url('../font/Optiker-K.woff2') format('woff2'), /* Modern Browsers */
+         url('../font/Optiker-K.ttf') format('truetype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+  font-family: 'OpticianSans';
+}
