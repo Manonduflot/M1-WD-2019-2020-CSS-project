@@ -1,13 +1,28 @@
+#abecedaire{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 50px;
+  grid-auto-rows: minmax(150px, auto);
+}
 /* Webfont: OpticianSans-Regular */@font-face {
     font-family: 'OpticianSans';
     src: url('../font/Optiker-K.woff2') format('woff2'), /* Modern Browsers */
          url('../font/Optiker-K.ttf') format('truetype'); /* Safari, Android, iOS */
-             font-style: normal;
+    font-style: normal;
     font-weight: normal;
     text-rendering: optimizeLegibility;
 }
-
 body{
   font-family: 'OpticianSans';
-  color: red;
+}
+p {
+  border: solid 2px black;
+  font-size: 5em;
+  text-align: center;
+}
+#abecedaire:target {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(150px, auto);
 }
