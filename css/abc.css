@@ -1,8 +1,9 @@
 #abecedaire{
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-gap: 50px;
-  grid-auto-rows: minmax(150px, auto);
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  text-align: center;
 }
 /* Webfont: OpticianSans-Regular */@font-face {
     font-family: 'OpticianSans';
@@ -15,14 +16,34 @@
 body{
   font-family: 'OpticianSans';
 }
-p {
-  border: solid 2px black;
-  font-size: 5em;
-  text-align: center;
+header{
+position: fixed;
+height: 200px;
+}
+#abecedaire > div {
+  border: solid 1px green;
+  font-size: 4em;
+  margin: 0;
+}
+figcaption {
+  font-size: 0.3em;
+}
+.wrapper{
+  padding-top: 200px;
 }
 #abecedaire:target {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(150px, auto);
+  grid-auto-rows: minmax(100px, auto);
+  text-align: left;
+}
+@media screen and (max-width: 1200px) {
+  #abecedaire {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    text-align: left;
+  }
 }
