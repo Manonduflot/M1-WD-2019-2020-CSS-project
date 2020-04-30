@@ -21,7 +21,8 @@ position: fixed;
 height: 200px;
 }
 #abecedaire > div {
-  border: solid 1px green;
+  border: solid 1px red;
+  background: pink;
   font-size: 4em;
   margin: 0;
 }
@@ -36,7 +37,7 @@ figcaption {
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
-  text-align: left;
+  text-align: center;
 }
 @media screen and (max-width: 1200px) {
   #abecedaire {
@@ -44,6 +45,6 @@ figcaption {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
-    text-align: left;
+    text-align: center;
   }
 }
