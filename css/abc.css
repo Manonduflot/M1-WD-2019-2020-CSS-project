@@ -1,6 +1,6 @@
 #abecedaire{
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   text-align: center;
@@ -21,17 +21,164 @@ position: fixed;
 height: 200px;
 }
 #abecedaire > div {
-  border: solid 1px red;
-  background: pink;
-  font-size: 4em;
+
+  font-size: 12em;
   margin: 0;
 }
+
+/* colors cases */
+
+#un{
+  background: #EDBDD4;
+  color: #E75A1E;
+
+}
+
+#deux{
+  background: #977C21;
+  color: #F7EA6C;
+
+}
+
+#trois{
+  background: #67A5DA;
+  color: #EDBDD4;
+
+
+}
+
+
+#quatre{
+  background: #F7EA6C;
+  color: #949CCC;
+
+}
+
+#cinq{
+  background: #EEF3DE;
+  color: #949CCC;
+
+}
+
+#six{
+  background: #92CCB4;
+  color: #E75A1E;
+
+}
+
+
+#sept{
+  background: #E75A1E;
+  color: #EEF3DE;
+
+}
+
+#huit{
+  background: #949CCC;
+  color: #92CCB4;
+}
+
+#neuf{
+  background: #F7EA6C;
+
+}
+
+#dix{
+  background: #F7EA6C;
+
+}
+
+#onze{
+  background: #F7EA6C;
+
+}
+
+#douze{
+  background: #F7EA6C;
+
+}
+
+#treize{
+  background: #F7EA6C;
+
+}
+
+#quatorze{
+  background: #F7EA6C;
+
+}
+
+#quinze{
+  background: #F7EA6C;
+
+}
+
+#seize{
+  background: #F7EA6C;
+
+}
+
+
+#dix-sept{
+  background: #F7EA6C;
+
+}
+
+#dix-huit{
+  background: #F7EA6C;
+
+}
+
+#dix-neuf{
+  background: #F7EA6C;
+
+}
+
+#vingt{
+  background: #F7EA6C;
+
+}
+
+#vingt-et-un{
+  background: #F7EA6C;
+
+}
+
+#vingt-deux{
+  background: #F7EA6C;
+
+}
+
+#vingt-trois{
+  background: #F7EA6C;
+
+}
+
+#vingt-quatre{
+  background: #F7EA6C;
+
+}
+
+#vingt-cinq{
+  background: #F7EA6C;
+
+}
+
+#vingt-six{
+  background: #F7EA6C;
+
+}
+
 figcaption {
-  font-size: 0.3em;
+  font-size: 0.1em;
 }
-.wrapper{
-  padding-top: 200px;
+.wrapper {
+    padding-top: 50px;
+    /* display: inline-flex; */
+    padding-inline-end: 165px;
+    padding-left: 194px;
 }
+
 #abecedaire:target {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
