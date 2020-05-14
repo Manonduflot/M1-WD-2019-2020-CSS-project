@@ -34,10 +34,17 @@ height: 200px;
 
 }
 
+
+
 #deux{
   background: #977C21;
   color: #F7EA6C;
 
+}
+
+
+#trois:hover {
+  border: solid 2px #EDBDD4;
 }
 
 #trois{
@@ -47,12 +54,17 @@ height: 200px;
 
 }
 
+#quatre:hover {
+  border: solid 2px #949CCC;
+}
 
 #quatre{
   background: #F7EA6C;
   color: #949CCC;
 
 }
+
+
 
 #cinq{
   background: #EEF3DE;
@@ -79,95 +91,110 @@ height: 200px;
 }
 
 #neuf{
-  background: #F7EA6C;
+  background: #E75A1E;
+  color: #92CCB4;
 
 }
 
 #dix{
-  background: #F7EA6C;
+  background: #EDBDD4;
+  color: #EEF3DE;
 
 }
 
 #onze{
-  background: #F7EA6C;
+  background: #977C21;
+  color: #F7EA6C;
 
 }
 
 #douze{
   background: #F7EA6C;
+  color:  #E75A1E;
 
 }
 
 #treize{
-  background: #F7EA6C;
+  background: #EEF3DE;
+  color: #977C21;
 
 }
 
 #quatorze{
-  background: #F7EA6C;
+  background: #67A5DA;
+  color: #F7EA6C;
 
 }
 
 #quinze{
-  background: #F7EA6C;
-
+  background: #949CCC;
+  color: #E75A1E;
 }
 
 #seize{
-  background: #F7EA6C;
+  background: #92CCB4;
+  color: #EDBDD4;
 
 }
 
 
 #dix-sept{
-  background: #F7EA6C;
+  background: #EDBDD4;
+  color: #F7EA6C;
 
 }
 
 #dix-huit{
-  background: #F7EA6C;
+  background: #977C21;
+  color: #92CCB4;
 
 }
 
 #dix-neuf{
-  background: #F7EA6C;
+  background: #67A5DA;
+  color: #977C21;
 
 }
 
 #vingt{
   background: #F7EA6C;
+  color: #949CCC;
 
 }
 
 #vingt-et-un{
-  background: #F7EA6C;
+  background: #EEF3DE;
+  color: #E75A1E;
 
 }
 
 #vingt-deux{
-  background: #F7EA6C;
+  background: #92CCB4;
+  color:  #EEF3DE;
 
+}
+
+#vingt-trois:hover {
+  border: solid 2px #EDBDD4;
 }
 
 #vingt-trois{
-  background: #F7EA6C;
+  background: #E75A1E;
+  color: #EDBDD4;
 
+}
+
+#vingt-quatre:hover {
+  border: solid 2px #977C21;
 }
 
 #vingt-quatre{
-  background: #F7EA6C;
+  background: #949CCC;
+  color: #977C21;
 
 }
 
-#vingt-cinq{
-  background: #F7EA6C;
 
-}
-
-#vingt-six{
-  background: #F7EA6C;
-
-}
 
 figcaption {
   font-size: 0.1em;
