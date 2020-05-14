@@ -34,10 +34,17 @@ height: 200px;
 
 }
 
+
+
 #deux{
   background: #977C21;
   color: #F7EA6C;
 
+}
+
+
+#trois:hover {
+  border: solid 2px #EDBDD4;
 }
 
 #trois{
@@ -47,12 +54,17 @@ height: 200px;
 
 }
 
+#quatre:hover {
+  border: solid 2px #949CCC;
+}
 
 #quatre{
   background: #F7EA6C;
   color: #949CCC;
 
 }
+
+
 
 #cinq{
   background: #EEF3DE;
@@ -162,10 +174,18 @@ height: 200px;
 
 }
 
+#vingt-trois:hover {
+  border: solid 2px #EDBDD4;
+}
+
 #vingt-trois{
   background: #E75A1E;
   color: #EDBDD4;
 
+}
+
+#vingt-quatre:hover {
+  border: solid 2px #977C21;
 }
 
 #vingt-quatre{
