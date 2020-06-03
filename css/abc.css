@@ -28,6 +28,50 @@ height: 200px;
 
 /* colors cases */
 
+
+.letterbox{
+    border: 2px ;
+    width: 220px;
+    height: 350px;
+    border-radius: 14px;
+    text-align: center;
+    position: relative;
+}
+
+.letterbox .svg_image{
+  border: 2px ;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.1s ease-in;
+
+}
+
+
+.letterbox:hover .svg_image{
+  opacity: 1;
+
+}
+
+.letterbox:hover p{
+  opacity: 0;
+
+}
+
+
+.letterbox p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 2px  ;
+  transform: translateX(-50%) translateY(-50%);
+  transition: opacity 0s ease-in;
+
+}
+
 #un{
   background: #EDBDD4;
   color: #E75A1E;
@@ -43,20 +87,15 @@ height: 200px;
 }
 
 
-#trois:hover {
-  border: solid 2px #EDBDD4;
-}
+
 
 #trois{
   background: #67A5DA;
   color: #EDBDD4;
 
-
 }
 
-#quatre:hover {
-  border: solid 2px #949CCC;
-}
+
 
 #quatre{
   background: #F7EA6C;
@@ -174,9 +213,7 @@ height: 200px;
 
 }
 
-#vingt-trois:hover {
-  border: solid 2px #EDBDD4;
-}
+
 
 #vingt-trois{
   background: #E75A1E;
@@ -184,9 +221,6 @@ height: 200px;
 
 }
 
-#vingt-quatre:hover {
-  border: solid 2px #977C21;
-}
 
 #vingt-quatre{
   background: #949CCC;
